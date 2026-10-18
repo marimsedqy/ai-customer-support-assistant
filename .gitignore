@@ -1,0 +1,12 @@
+
+# Ignore environment variables and secret API keys.
+.env
+.env.*
+!.env.example
+
+# Ignore the Python virtual environment.
+.venv/
+
+# Ignore Python cache files.
+__pycache__/
+*.py[cod]
